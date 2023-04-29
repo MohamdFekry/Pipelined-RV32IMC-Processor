@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Thu Jul 07 10:58:15 2022
+# Process ID: 12000
+# Current directory: C:/Users/ahmed98/Desktop/MS3/MS3.runs/synth_1
+# Command line: vivado.exe -log CPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CPU.tcl
+# Log file: C:/Users/ahmed98/Desktop/MS3/MS3.runs/synth_1/CPU.vds
+# Journal file: C:/Users/ahmed98/Desktop/MS3/MS3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source CPU.tcl -notrace

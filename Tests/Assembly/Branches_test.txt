@@ -1,0 +1,7 @@
+notwanted:addi x1, x0
+addi x2, x1, -2        
+wanted:addi x2, x1, -1 
+beq x1, x2, notwanted  
+blt x1, x2, notwanted  
+bgeu x1, x2, wanted    
+bltu x1, x2, notwanted 

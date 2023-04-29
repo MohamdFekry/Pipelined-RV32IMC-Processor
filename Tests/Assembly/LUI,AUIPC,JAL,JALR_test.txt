@@ -1,0 +1,11 @@
+lbl:add x0, x0, x0 
+addi x5, x0, 4     
+lui x1, 5          
+auipc x2, 3        
+jal x3, lbl        
+addi x5, x0, 9   
+
+
+
+
+to test jalr replace jal x3, lbl  with jalr x4, x5, 0          

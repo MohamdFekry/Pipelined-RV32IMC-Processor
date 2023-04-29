@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Jul 10 20:18:20 2022
+# Process ID: 13188
+# Current directory: C:/Users/Mohamed/Desktop/MS3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12532 C:\Users\Mohamed\Desktop\MS3\MS3.xpr
+# Log file: C:/Users/Mohamed/Desktop/MS3/vivado.log
+# Journal file: C:/Users/Mohamed/Desktop/MS3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Mohamed/Desktop/MS3/MS3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source CPU_Pipelined_tb.tcl
+relaunch_sim
+relaunch_sim

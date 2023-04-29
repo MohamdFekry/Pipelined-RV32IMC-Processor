@@ -1,0 +1,173 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jul 11 14:02:09 2022
+# Process ID: 1204
+# Current directory: C:/Users/Mohamed/Desktop/MS3_rep
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13188 C:\Users\Mohamed\Desktop\MS3_rep\MS3.xpr
+# Log file: C:/Users/Mohamed/Desktop/MS3_rep/vivado.log
+# Journal file: C:/Users/Mohamed/Desktop/MS3_rep\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Mohamed/Desktop/MS3_rep/MS3.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source CPU_Pipelined_tb.tcl
+relaunch_sim
+run 1 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+relaunch_sim
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+run 1 us
+relaunch_sim
+close_sim
+launch_simulation
+source CPU_Pipelined_tb.tcl
+run 1 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+run 1 us
+relaunch_sim
+run 1 us
+run 1 us
+save_wave_config {C:/Users/Mohamed/Desktop/MS3_rep/CPU_Pipelined_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/Mohamed/Desktop/MS3_rep/CPU_Pipelined_tb_behav.wcfg
+set_property xsim.view C:/Users/Mohamed/Desktop/MS3_rep/CPU_Pipelined_tb_behav.wcfg [get_filesets sim_1]
+close_sim

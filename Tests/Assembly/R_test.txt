@@ -1,0 +1,20 @@
+addi x1, x0, -3
+addi x2, x0, 2  
+lb x1, 0(x0)    
+lb x2, 1(x0)    
+add x3, x1, x2  
+sub x4, x3, x2  
+sll x5, x4, x2  
+slt x6, x5, x1  
+sltu x7, x6, x2 
+xor x8, x7, x6  
+FENCE            
+FENCE           
+srl x9, x8, x7   
+sra x10, x1, x2  
+or x11, x9, x2   
+and x12, x10, x11
+ECALL     
+add x13, x1, x2  
+sub x14, x1, x2  
+ADDI x15, x1, 5  

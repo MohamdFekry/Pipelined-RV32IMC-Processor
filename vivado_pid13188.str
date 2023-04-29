@@ -1,0 +1,1139 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 13188
+License: Customer
+
+Current time: 	Sun Jul 10 20:19:32 EET 2022
+Time zone: 	Eastern European Time (Africa/Cairo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 6 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Mohamed
+User home directory: C:/Users/Mohamed
+User working directory: C:/Users/Mohamed/Desktop/MS3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.2
+RDI_DATADIR: D:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Mohamed/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Mohamed/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Mohamed/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Mohamed/Desktop/MS3/vivado.log
+Vivado journal file location: 	C:/Users/Mohamed/Desktop/MS3/vivado.jou
+Engine tmp dir: 	C:/Users/Mohamed/Desktop/MS3/.Xil/Vivado-13188-DESKTOP-Q09LCKC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Xilinx/Vivado/2018.2
+XILINX_VIVADO: D:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	151 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 450 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 37 MB (+36659kb) [00:00:05]
+// [Engine Memory]: 297 MB (+159758kb) [00:00:05]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Mohamed\Desktop\MS3\MS3.xpr. Version: Vivado v2018.2 
+// [GUI Memory]: 68 MB (+30517kb) [00:00:25]
+// [Engine Memory]: 440 MB (+134698kb) [00:00:25]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/Mohamed/Desktop/MS3/MS3.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 477 MB. GUI used memory: 32 MB. Current time: 7/10/22 8:19:34 PM EET
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 477 MB (+15379kb) [00:00:30]
+// Tcl Message: open_project C:/Users/Mohamed/Desktop/MS3/MS3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 537 MB (+38195kb) [00:00:37]
+// [Engine Memory]: 575 MB (+11457kb) [00:00:40]
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 747.320 ; gain = 127.891 
+// Project name: MS3; location: C:/Users/Mohamed/Desktop/MS3; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (HazardUnit.v) elapsed time: 0.4s
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HazardUnit (HazardUnit.v)]", 4, false); // B (D, ck)
+// [GUI Memory]: 75 MB (+3117kb) [00:01:08]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Pipelined (CPU_Pipelined.v)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Pipelined (CPU_Pipelined.v), instructions_and_data : Memory2 (Memory2.v)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 81 MB (+2678kb) [00:01:09]
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_Pipelined (CPU_Pipelined.v)]", 2); // B (D, ck)
+// [Engine Memory]: 605 MB (+1832kb) [00:01:20]
+selectCodeEditor("CPU_Pipelined.v", 92, 59); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 155, 110); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 67, 63); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 113, 64); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 115, 61); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 116, 63); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 129, 58); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 130, 73); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 126, 92); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 134, 111); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 163, 111); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 129, 144); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 258, 175); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 194, 144); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 194, 144, false, false, false, false, true); // ce (w, ck) - Double Click
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): TRUE
+selectCodeEditor("CPU_Pipelined.v", 177, 146); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 232, 148); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 224, 147); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 271, 178); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 126, 145); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 235, 145); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 86 MB (+659kb) [00:02:24]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectCodeEditor("CPU_Pipelined.v", 427, 261); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 443, 267); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 613 MB. GUI used memory: 49 MB. Current time: 7/10/22 8:21:45 PM EET
+selectCodeEditor("CPU_Pipelined.v", 446, 264); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 446, 264, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 51, 260); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 51, 260, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PACodeEditor_GOTO_DEFINITION, "Go to Definition"); // ad (aj, Popup.HeavyWeightWindow)
+// Elapsed time: 13 seconds
+selectCodeEditor("Memory2.v", 156, 140); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory2.v", 2); // k (j, ck)
+// Elapsed time: 29 seconds
+selectCodeEditor("Memory2.v", 89, 62); // ce (w, ck)
+// Elapsed time: 33 seconds
+selectCodeEditor("Memory2.v", 154, 57); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("Memory2.v", 115, 76); // ce (w, ck)
+selectCodeEditor("Memory2.v", 75, 391); // ce (w, ck)
+selectCodeEditor("Memory2.v", 75, 391, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 75, 391); // ce (w, ck)
+selectCodeEditor("Memory2.v", 84, 79); // ce (w, ck)
+// [GUI Memory]: 91 MB (+820kb) [00:05:05]
+// Elapsed time: 29 seconds
+selectCodeEditor("Memory2.v", 166, 102); // ce (w, ck)
+selectCodeEditor("Memory2.v", 147, 413); // ce (w, ck)
+selectCodeEditor("Memory2.v", 147, 413, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 147, 413); // ce (w, ck)
+selectCodeEditor("Memory2.v", 147, 413); // ce (w, ck)
+selectCodeEditor("Memory2.v", 103, 86); // ce (w, ck)
+selectCodeEditor("Memory2.v", 103, 86, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 93, 93); // ce (w, ck)
+selectCodeEditor("Memory2.v", 100, 121); // ce (w, ck)
+selectCodeEditor("Memory2.v", 89, 141); // ce (w, ck)
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+selectCodeEditor("CPU_Pipelined.v", 79, 263); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 81, 263); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 91, 248); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 76, 288); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 229, 284); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 224, 282); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 30, 280); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 543, 294); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 553, 297); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 25, 279); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 25, 279); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 506, 280); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 506, 280, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 316, 299); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("CPU_Pipelined.v", 287, 283); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 287, 283, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 855, 261); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 855, 261); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 855, 261); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 855, 261, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 279, 286); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 279, 286, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("CPU_Pipelined.v", 315, 295); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 450, 295); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 450, 295); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory2.v", 2); // k (j, ck)
+selectCodeEditor("Memory2.v", 78, 281); // ce (w, ck)
+selectCodeEditor("Memory2.v", 79, 273); // ce (w, ck)
+selectCodeEditor("Memory2.v", 112, 274); // ce (w, ck)
+selectCodeEditor("Memory2.v", 159, 38); // ce (w, ck)
+selectCodeEditor("Memory2.v", 159, 38, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 25 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+// Elapsed time: 35 seconds
+selectCodeEditor("CPU_Pipelined.v", 126, 127); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 70, 126); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 126, 126); // ce (w, ck)
+// Elapsed time: 20 seconds
+selectCodeEditor("CPU_Pipelined.v", 150, 127); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 173, 132); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("CPU_Pipelined.v", 356, 197); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("CPU_Pipelined.v", 317, 212); // ce (w, ck)
+// Elapsed time: 53 seconds
+selectCodeEditor("CPU_Pipelined.v", 510, 219); // ce (w, ck)
+// [GUI Memory]: 96 MB (+1026kb) [00:11:41]
+// Elapsed time: 45 seconds
+selectCodeEditor("CPU_Pipelined.v", 802, 85); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 414, 208); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 505, 218); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 459, 217); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 530, 216); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): FALSE
+selectCodeEditor("CPU_Pipelined.v", 356, 185); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 820, 334); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory2.v", 2); // k (j, ck)
+selectCodeEditor("Memory2.v", 285, 175); // ce (w, ck)
+selectCodeEditor("Memory2.v", 103, 145); // ce (w, ck)
+typeControlKey((HResource) null, "Memory2.v", 'c'); // ce (w, ck)
+selectCodeEditor("Memory2.v", 103, 145); // ce (w, ck)
+// [GUI Memory]: 102 MB (+416kb) [00:12:56]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Memory2.v", 111, 143); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Memory2.v", 112, 307); // ce (w, ck)
+selectCodeEditor("Memory2.v", 112, 307, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 112, 294); // ce (w, ck)
+selectCodeEditor("Memory2.v", 112, 294, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 130, 248); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("Memory2.v", 125, 209); // ce (w, ck)
+selectCodeEditor("Memory2.v", 113, 166); // ce (w, ck)
+selectCodeEditor("Memory2.v", 151, 250); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("Memory2.v", 157, 157); // ce (w, ck)
+selectCodeEditor("Memory2.v", 148, 161); // ce (w, ck)
+selectCodeEditor("Memory2.v", 152, 161); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("Memory2.v", 128, 155); // ce (w, ck)
+selectCodeEditor("Memory2.v", 326, 159); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+// [GUI Memory]: 107 MB (+581kb) [00:14:36]
+// Elapsed time: 20 seconds
+selectCodeEditor("CPU_Pipelined.v", 322, 152); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 313, 148); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 311, 138); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 305, 131); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 314, 133); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 314, 148); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 306, 148); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 309, 128); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 317, 130); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectCodeEditor("CPU_Pipelined.v", 417, 149); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 548, 133); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 542, 147); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("CPU_Pipelined.v", 111, 130); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 111, 130, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectCodeEditor("CPU_Pipelined.v", 55, 120); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 44, 125); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 44, 125, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectCodeEditor("CPU_Pipelined.v", 15, 140); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 69, 138); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 75, 127); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 75, 127, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PACodeEditor_GOTO_DEFINITION, "Go to Definition"); // ad (aj, Popup.HeavyWeightWindow)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+selectCodeEditor("CPU_Pipelined.v", 29, 119); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "compressed_unit.v", 3); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 52 MB. Current time: 7/10/22 8:35:10 PM EET
+selectCodeEditor("compressed_unit.v", 61, 66); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 54, 74); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 483, 351); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 418, 381); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("compressed_unit.v", 262, 342); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 259, 371); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 253, 382); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("compressed_unit.v", 128, 106); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 119, 81); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 120, 116); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 139, 83); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 173, 60); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 185, 63); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 180, 63); // ce (w, ck)
+selectCodeEditor("compressed_unit.v", 180, 63, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory2.v", 2); // k (j, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("Memory2.v", 207, 415); // ce (w, ck)
+selectCodeEditor("Memory2.v", 118, 384); // ce (w, ck)
+selectCodeEditor("Memory2.v", 78, 368); // ce (w, ck)
+selectCodeEditor("Memory2.v", 79, 378); // ce (w, ck)
+selectCodeEditor("Memory2.v", 50, 394); // ce (w, ck)
+selectCodeEditor("Memory2.v", 49, 385); // ce (w, ck)
+selectCodeEditor("Memory2.v", 80, 370); // ce (w, ck)
+selectCodeEditor("Memory2.v", 80, 382); // ce (w, ck)
+selectCodeEditor("Memory2.v", 80, 370); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("Memory2.v", 82, 377); // ce (w, ck)
+selectCodeEditor("Memory2.v", 80, 391); // ce (w, ck)
+selectCodeEditor("Memory2.v", 61, 411); // ce (w, ck)
+// Elapsed time: 119 seconds
+selectCodeEditor("Memory2.v", 270, 12); // ce (w, ck)
+selectCodeEditor("Memory2.v", 167, 101); // ce (w, ck)
+selectCodeEditor("Memory2.v", 159, 113); // ce (w, ck)
+selectCodeEditor("Memory2.v", 65, 157); // ce (w, ck)
+selectCodeEditor("Memory2.v", 27, 161); // ce (w, ck)
+selectCodeEditor("Memory2.v", 13, 184); // ce (w, ck)
+selectCodeEditor("Memory2.v", 13, 184, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 13, 184); // ce (w, ck)
+selectCodeEditor("Memory2.v", 13, 184); // ce (w, ck)
+selectCodeEditor("Memory2.v", 13, 184); // ce (w, ck)
+selectCodeEditor("Memory2.v", 13, 194); // ce (w, ck)
+selectCodeEditor("Memory2.v", 13, 194, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 13, 216); // ce (w, ck)
+selectCodeEditor("Memory2.v", 13, 216, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 8, 234); // ce (w, ck)
+selectCodeEditor("Memory2.v", 8, 234); // ce (w, ck)
+selectCodeEditor("Memory2.v", 8, 234, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 8, 234); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+selectCodeEditor("CPU_Pipelined.v", 149, 238); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory2.v", 2, false, true); // k (j, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+selectCodeEditor("CPU_Pipelined.v", 828, 221); // ce (w, ck)
+// Elapsed time: 14 seconds
+selectCodeEditor("CPU_Pipelined.v", 224, 404); // ce (w, ck)
+// Elapsed time: 41 seconds
+selectCodeEditor("CPU_Pipelined.v", 153, 58); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 189, 56); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 189, 56, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 223, 91); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 223, 91, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("CPU_Pipelined.v", 136, 244); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 51, 253); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 754, 249); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 754, 249, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 158, 191); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 156, 191, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 326, 195); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 326, 195, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 787, 208); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 782, 198); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 782, 198, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("CPU_Pipelined.v", 231, 59); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 231, 59, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 208, 148); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 208, 148, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 765, 139); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 765, 139, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("CPU_Pipelined.v", 618, 149); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 618, 149, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 714, 304); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 714, 304, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 739, 316); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 739, 316, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 297, 322); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 297, 322, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 502, 241); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 502, 241, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 756, 266); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 757, 279); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 757, 279, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 61 seconds
+selectCodeEditor("CPU_Pipelined.v", 62, 56); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 62, 56, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 62, 56); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 62, 56, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 62, 56); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 278, 161); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 278, 161, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 160, 93); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("CPU_Pipelined.v", 281, 94); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 281, 94, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 281, 94); // ce (w, ck)
+typeControlKey((HResource) null, "CPU_Pipelined.v", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory2.v", 2); // k (j, ck)
+selectCodeEditor("Memory2.v", 50, 228); // ce (w, ck)
+selectCodeEditor("Memory2.v", 4, 227); // ce (w, ck)
+selectCodeEditor("Memory2.v", 2, 227, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 2, 227); // ce (w, ck)
+typeControlKey((HResource) null, "Memory2.v", 'v'); // ce (w, ck)
+selectCodeEditor("Memory2.v", 342, 213); // ce (w, ck)
+selectCodeEditor("Memory2.v", 392, 250); // ce (w, ck)
+selectCodeEditor("Memory2.v", 392, 250, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 227, 244); // ce (w, ck)
+selectCodeEditor("Memory2.v", 227, 244, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 213, 196); // ce (w, ck)
+selectCodeEditor("Memory2.v", 213, 196, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 174, 244); // ce (w, ck)
+selectCodeEditor("Memory2.v", 123, 245); // ce (w, ck)
+selectCodeEditor("Memory2.v", 123, 245, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 75, 243); // ce (w, ck)
+selectCodeEditor("Memory2.v", 301, 240); // ce (w, ck)
+selectCodeEditor("Memory2.v", 448, 246); // ce (w, ck)
+selectCodeEditor("Memory2.v", 77, 243); // ce (w, ck)
+selectCodeEditor("Memory2.v", 127, 251); // ce (w, ck)
+selectCodeEditor("Memory2.v", 127, 251, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 378, 144); // ce (w, ck)
+selectCodeEditor("Memory2.v", 378, 144, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 186, 414); // ce (w, ck)
+selectCodeEditor("Memory2.v", 191, 414); // ce (w, ck)
+selectCodeEditor("Memory2.v", 327, 143); // ce (w, ck)
+selectCodeEditor("Memory2.v", 198, 197); // ce (w, ck)
+selectCodeEditor("Memory2.v", 198, 197, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 182, 230); // ce (w, ck)
+selectCodeEditor("Memory2.v", 182, 230, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 182, 230); // ce (w, ck)
+selectCodeEditor("Memory2.v", 188, 310); // ce (w, ck)
+selectCodeEditor("Memory2.v", 188, 310, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("Memory2.v", 146, 295); // ce (w, ck)
+// Elapsed time: 19 seconds
+selectCodeEditor("Memory2.v", 209, 297); // ce (w, ck)
+selectCodeEditor("Memory2.v", 321, 265); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("Memory2.v", 14, 248); // ce (w, ck)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 2367 ms. Increasing delay to 3000 ms.
+// Elapsed time: 91 seconds
+selectCodeEditor("Memory2.v", 212, 80); // ce (w, ck)
+selectCodeEditor("Memory2.v", 340, 183); // ce (w, ck)
+selectCodeEditor("Memory2.v", 3, 141); // ce (w, ck)
+selectCodeEditor("Memory2.v", 101, 177); // ce (w, ck)
+// Elapsed time: 29 seconds
+selectCodeEditor("Memory2.v", 108, 141); // ce (w, ck)
+selectCodeEditor("Memory2.v", 7, 143); // ce (w, ck)
+selectCodeEditor("Memory2.v", 4, 142); // ce (w, ck)
+selectCodeEditor("Memory2.v", 1, 141); // ce (w, ck)
+selectCodeEditor("Memory2.v", 67, 132); // ce (w, ck)
+typeControlKey((HResource) null, "Memory2.v", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Memory2.v", 0, 160); // ce (w, ck)
+// Elapsed time: 156 seconds
+selectCodeEditor("Memory2.v", 93, 211); // ce (w, ck)
+typeControlKey((HResource) null, "Memory2.v", 'c'); // ce (w, ck)
+// Elapsed time: 43 seconds
+selectCodeEditor("Memory2.v", 233, 265); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "compressed_unit.v", 3); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("CPU_Pipelined.v", 139, 67); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 59, 62); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 59, 62, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectCodeEditor("CPU_Pipelined.v", 30, 59); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 60, 263); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 60, 263, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PACodeEditor_GOTO_DEFINITION, "Go to Definition"); // ad (aj, Popup.HeavyWeightWindow)
+selectCodeEditor("RegFile.v", 57, 113); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("RegFile.v", 228, 119); // ce (w, ck)
+selectCodeEditor("RegFile.v", 226, 112); // ce (w, ck)
+selectCodeEditor("RegFile.v", 226, 112, false, false, false, false, true); // ce (w, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RegFile.v", 2); // k (j, ck)
+selectCodeEditor("RegFile.v", 215, 112); // ce (w, ck)
+selectCodeEditor("RegFile.v", 378, 200, true, false, false, false, false); // ce (w, ck) - Shift Key
+selectCodeEditor("RegFile.v", 378, 200); // ce (w, ck)
+selectCodeEditor("RegFile.v", 407, 193); // ce (w, ck)
+selectCodeEditor("RegFile.v", 404, 196, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("RegFile.v", 404, 196); // ce (w, ck)
+selectCodeEditor("RegFile.v", 404, 196); // ce (w, ck)
+selectCodeEditor("RegFile.v", 401, 242); // ce (w, ck)
+selectCodeEditor("RegFile.v", 401, 196); // ce (w, ck)
+selectCodeEditor("RegFile.v", 401, 196, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("RegFile.v", 118, 280); // ce (w, ck)
+selectCodeEditor("RegFile.v", 118, 280, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PACodeEditor_GOTO_DEFINITION, "Go to Definition"); // ad (aj, Popup.HeavyWeightWindow)
+selectCodeEditor("register.v", 132, 135); // ce (w, ck)
+selectCodeEditor("register.v", 124, 130, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectCodeEditor("register.v", 124, 130, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PACodeEditor_GOTO_DEFINITION, "Go to Definition"); // ad (aj, Popup.HeavyWeightWindow)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 18 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 13 seconds
+selectCodeEditor("RegFile.v", 150, 48); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 1); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ck):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Mohamed/Desktop/MS3/MS3.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'CPU_Pipelined_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Mohamed/Desktop/MS3/MS3.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj CPU_Pipelined_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Mohamed/Desktop/MS3/MS3.sim/sim_1/behav/xsim' 
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// 'd' command handler elapsed time: 6 seconds
+selectCodeEditor("CPU_Pipelined.v", 61, 223); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 58, 215); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 58, 215, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(PAResourceOtoP.PACodeEditor_GOTO_DEFINITION, "Go to Definition"); // ad (aj, Popup.HeavyWeightWindow)
+selectCodeEditor("Memory2.v", 199, 160); // ce (w, ck)
+// Tcl Message: Built simulation snapshot CPU_Pipelined_tb_behav 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: run_program: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 786.207 ; gain = 5.227 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Mohamed/Desktop/MS3/MS3.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "CPU_Pipelined_tb_behav -key {Behavioral:sim_1:Functional:CPU_Pipelined_tb} -tclbatch {CPU_Pipelined_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator 2018.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// PAPropertyPanels.initPanels (CPU_Pipelined.v) elapsed time: 0.2s
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source CPU_Pipelined_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 62 MB. Current time: 7/10/22 8:54:03 PM EET
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 815.402 ; gain = 25.594 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'CPU_Pipelined_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:34 . Memory (MB): peak = 815.402 ; gain = 36.500 
+// Elapsed time: 16 seconds
+dismissDialog("Run Simulation"); // e (ck)
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "uut ; CPU_Pipelined ; Verilog Module", 1, "uut", 0, true); // d (O, ck) - Node
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "uut ; CPU_Pipelined ; Verilog Module", 1, "uut", 0, true); // d (O, ck) - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+expandTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "uut ; CPU_Pipelined ; Verilog Module", 1); // d (O, ck)
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+selectTreeTable(PAResourceQtoS.SimulationScopesPanel_SIMULATE_SCOPE_TABLE, "file ; RegFile ; Verilog Module", 8, "file", 0, true); // d (O, ck) - Node
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "regs_out[0:31][31:0] ; 00000000,fffffffd,000002fd,050402fd,000000f7,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000 ; Array", 10, "regs_out[0:31][31:0]", 0, true); // m (c, ck) - Node
+selectTreeTable(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "regs_out[0:31][31:0] ; 00000000,fffffffd,000002fd,050402fd,000000f7,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000 ; Array", 10, "regs_out[0:31][31:0]", 0, true); // m (c, ck) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 62 MB. Current time: 7/10/22 8:54:17 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 62 MB. Current time: 7/10/22 8:54:18 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory2.v", 2); // k (j, ck)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 0); // k (j, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("CPU_Pipelined.v", 227, 139); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory2.v", 2); // k (j, ck)
+selectCodeEditor("Memory2.v", 377, 93); // ce (w, ck)
+typeControlKey((HResource) null, "Memory2.v", 'v'); // ce (w, ck)
+selectCodeEditor("Memory2.v", 437, 116); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1*", 3); // k (j, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ck):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Mohamed/Desktop/MS3/MS3.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'CPU_Pipelined_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Mohamed/Desktop/MS3/MS3.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj CPU_Pipelined_tb_vlog.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Mohamed/Desktop/MS3/MS3.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Mohamed/Desktop/MS3/MS3.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot CPU_Pipelined_tb_behav 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 824.555 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 824.555 ; gain = 0.000 Vivado Simulator 2018.2 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 65 MB. Current time: 7/10/22 8:55:16 PM EET
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 853.250 ; gain = 28.695 
+// 'a' command handler elapsed time: 14 seconds
+// Elapsed time: 14 seconds
+dismissDialog("Relaunch Simulation"); // b (ck)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ck)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 62 MB. Current time: 7/10/22 8:55:20 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 62 MB. Current time: 7/10/22 8:55:20 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 62 MB. Current time: 7/10/22 8:55:21 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:22 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:22 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 60 MB. Current time: 7/10/22 8:55:22 PM EET
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, target_address[31:0]]", 9, true); // a (s, ck) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:25 PM EET
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, target_address[31:0]]", 9, true); // a (s, ck) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:28 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:29 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 62 MB. Current time: 7/10/22 8:55:29 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:29 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:30 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:30 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:30 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:30 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:31 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:31 PM EET
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 206, 350); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:36 PM EET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 162, 366); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 99, 363); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 157, 360); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 61 MB. Current time: 7/10/22 8:55:40 PM EET
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 228, 360); // n (o, ck)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [GUI Memory]: 113 MB (+187kb) [00:41:47]
+// Elapsed time: 776 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "RegFile.v", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 0); // k (j, ck)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - CPU_Pipelined_tb", "DesignTask.SIMULATION");
+// A (ck): Confirm Close: addNotify
+dismissDialog("Confirm Close"); // A (ck)
+selectCodeEditor("CPU_Pipelined.v", 207, 151); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 225, 161); // ce (w, ck)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectCodeEditor("CPU_Pipelined.v", 242, 101); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 80, 61); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 80, 61, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 90, 110); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 90, 110, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 155, 96); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 72, 94); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 72, 94, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("CPU_Pipelined.v", 271, 196); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 156, 208); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 79, 96); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 79, 96, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 29 seconds
+selectCodeEditor("CPU_Pipelined.v", 663, 315); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 663, 315, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("CPU_Pipelined.v", 1031, 300); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 1031, 300, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 669, 319); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 669, 319, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 193, 37); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 193, 37, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 262, 40); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 140, 42); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("CPU_Pipelined.v", 328, 163); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 328, 163, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("CPU_Pipelined.v", 182, 113); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 171, 124); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 110, 101); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 163, 161); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 92, 159); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 92, 159, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 374, 348); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 374, 348, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 377, 377); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 381, 366); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("CPU_Pipelined.v", 385, 299); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 385, 299, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("CPU_Pipelined.v", 229, 302); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 229, 302, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 301, 297); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 301, 297, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 420, 299); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 420, 299, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 754, 293); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 754, 293, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 394, 295); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 394, 295, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 394, 295); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 394, 295); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 394, 295); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 394, 295, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 304, 298); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 304, 298, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 393, 298); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 393, 298, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 232, 297); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 232, 297, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("CPU_Pipelined.v", 396, 307); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 400, 298); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 400, 298, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 22 seconds
+selectCodeEditor("CPU_Pipelined.v", 421, 301); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 415, 194); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 415, 194, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 21 seconds
+selectCodeEditor("CPU_Pipelined.v", 110, 198); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 110, 198, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 110, 198); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("CPU_Pipelined.v", 735, 192); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 735, 192, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 28 seconds
+selectCodeEditor("CPU_Pipelined.v", 145, 196); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 145, 196, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 202, 194); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 202, 194, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 218, 195); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 218, 195, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 300, 194); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 300, 194, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 385, 196); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 385, 196, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 432, 198); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 432, 198, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 545, 197); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 545, 197, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 1033, 189); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 1033, 189, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 29 seconds
+selectCodeEditor("CPU_Pipelined.v", 194, 89); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 194, 89, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 270, 94); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 270, 94, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 144, 109); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 311, 299); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 311, 299, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 234, 193); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 234, 193, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 234, 193); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 253, 259); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 253, 259, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 253, 259); // ce (w, ck)
+// Elapsed time: 35 seconds
+selectCodeEditor("CPU_Pipelined.v", 273, 268); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 323, 268); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 323, 268, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 397, 268); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 397, 268, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 473, 270); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 473, 270, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 521, 269); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 521, 269, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 583, 263); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 583, 263, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 640, 263); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 640, 263, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 687, 264); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 767, 264); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 767, 264, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 693, 262); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 744, 262); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 744, 262, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 673, 264); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 846, 268); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectCodeEditor("CPU_Pipelined.v", 1095, 60, false, false, false, true, false); // ce (w, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ad (aj, Popup.HeavyWeightWindow)
+selectCodeEditor("CPU_Pipelined.v", 178, 108); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1*", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory2.v", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 0); // k (j, ck)
+selectCodeEditor("CPU_Pipelined.v", 276, 112); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 180, 112); // ce (w, ck)
+// [GUI Memory]: 120 MB (+1825kb) [00:58:55]
+// Elapsed time: 100 seconds
+selectCodeEditor("CPU_Pipelined.v", 112, 109); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 112, 109, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 132, 115); // ce (w, ck)
+// Elapsed time: 48 seconds
+selectCodeEditor("CPU_Pipelined.v", 148, 106); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 148, 106, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 153, 100); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 153, 100, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 217, 91); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 217, 91, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 303, 96); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 303, 96, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 397, 97); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 397, 97, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 733, 91); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 733, 91, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 340, 141); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 340, 141, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 151, 145); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 151, 145, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 21 seconds
+selectCodeEditor("CPU_Pipelined.v", 239, 96); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 239, 96, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 755, 98); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 755, 98, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 315, 151); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 315, 151, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 149, 143); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 149, 143, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("CPU_Pipelined.v", 212, 173); // ce (w, ck)
+// Elapsed time: 135 seconds
+selectCodeEditor("CPU_Pipelined.v", 1067, 267); // ce (w, ck)
+typeControlKey((HResource) null, "CPU_Pipelined.v", 'c'); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 180, 311); // ce (w, ck)
+typeControlKey((HResource) null, "CPU_Pipelined.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 604ms to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 15 seconds
+selectCodeEditor("CPU_Pipelined.v", 938, 241); // ce (w, ck)
+// Elapsed time: 67 seconds
+selectCodeEditor("CPU_Pipelined.v", 222, 138); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 133, 96); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 156, 264); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 156, 264, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 29, 194); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 335, 202); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 315, 193); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 831, 193); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 849, 193); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 144, 258); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 144, 258, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 210, 269); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 244, 263); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 651, 262); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 688, 263); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 941, 264); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 228, 316); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 228, 316, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 256, 270); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 256, 270, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 283, 313); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 283, 313, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("CPU_Pipelined.v", 194, 136); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 194, 136, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 246, 113); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 246, 141); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 250, 126); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 743, 176); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 744, 167); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 744, 167, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 744, 167); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 62 MB. Current time: 7/10/22 9:25:46 PM EET
+selectCodeEditor("CPU_Pipelined.v", 744, 167); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 744, 164, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 744, 159); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 780, 160); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 785, 165); // ce (w, ck)
+// Elapsed time: 120 seconds
+selectCodeEditor("CPU_Pipelined.v", 1131, 163); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 1131, 163, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 209, 208); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 209, 208, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("CPU_Pipelined.v", 181, 248); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 251, 215); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 251, 215, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 182, 242); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 966, 249); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 450, 279); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 1131, 160); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 1131, 160, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 41 seconds
+selectCodeEditor("CPU_Pipelined.v", 158, 60); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 158, 60, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 158, 60); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 135, 62); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 121, 62); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 230, 116); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 156, 116); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 156, 116, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 44 seconds
+selectCodeEditor("CPU_Pipelined.v", 271, 341); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 271, 341, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("CPU_Pipelined.v", 159, 119); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 155, 234); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("CPU_Pipelined.v", 160, 160); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 126, 114); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 151, 122); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 167, 162); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 73, 87); // ce (w, ck)
+// Elapsed time: 22 seconds
+selectCodeEditor("CPU_Pipelined.v", 170, 165); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 146, 109); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 140, 128); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 99, 145); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 138, 145); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 98, 168); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 141, 167); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 69, 197); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 284, 225); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): TRUE
+selectCodeEditor("CPU_Pipelined.v", 175, 193); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 235, 209); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 231, 191); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 129, 196); // ce (w, ck)
+selectButton(RDIResource.CodeView_TOGGLE_COLUMN_SELECTION_MODE, (String) null); // u (f, ck): FALSE
+selectCodeEditor("CPU_Pipelined.v", 227, 173); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("CPU_Pipelined.v", 225, 214); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 159, 160); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 166, 137); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("CPU_Pipelined.v", 126, 118); // ce (w, ck)
+// Elapsed time: 185 seconds
+selectCodeEditor("CPU_Pipelined.v", 95, 127); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 95, 127, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 96, 144); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 96, 144, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 91, 157); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 91, 157, false, false, false, false, true); // ce (w, ck) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("CPU_Pipelined.v", 157, 194); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 230, 194); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 175, 194); // ce (w, ck)
+// Elapsed time: 29 seconds
+selectCodeEditor("CPU_Pipelined.v", 241, 208); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 241, 208, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 139, 213); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 139, 213, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 182, 211); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 141, 164); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 141, 164, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 138, 146); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 138, 146, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 115, 131); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("CPU_Pipelined.v", 98, 104); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 98, 104, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 112, 129); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 112, 129, false, false, false, false, true); // ce (w, ck) - Double Click
+selectCodeEditor("CPU_Pipelined.v", 136, 113); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 136, 124); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 102, 128); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 102, 144); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 244, 129); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 239, 148); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 232, 127); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 231, 148); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("CPU_Pipelined.v", 154, 128); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 253, 139); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("CPU_Pipelined.v", 95, 129); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 99, 145); // ce (w, ck)
+// Elapsed time: 76 seconds
+selectCodeEditor("CPU_Pipelined.v", 197, 119); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 195, 114); // ce (w, ck)
+// Elapsed time: 32 seconds
+selectCodeEditor("CPU_Pipelined.v", 256, 182); // ce (w, ck)
+selectCodeEditor("CPU_Pipelined.v", 179, 195); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1*", 3); // k (j, ck)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// c (ck): Save Simulation Sources: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (c)
+// 'a' command handler elapsed time: 3 seconds
+dismissDialog("Save Simulation Sources"); // c (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "CPU_Pipelined.v", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1*", 3); // k (j, ck)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// c (ck): Save Simulation Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (c)
+// b (ck):  Relaunch Simulation : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Simulation Sources"); // c (ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 

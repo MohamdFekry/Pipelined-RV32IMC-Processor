@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="CPU_Pipelined_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="CPU_Pipelined_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="5000000001fs"></ZoomEndTime>
+      <Cursor1Time time="5000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="138" />
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PC/clk" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="label">clk_GENERAL</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider225">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PC/D" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">D[31:0]</obj_property>
+      <obj_property name="label">Adress_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PC/load" type="logic">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PC/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PC/Q" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[31:0]</obj_property>
+      <obj_property name="label">Target Adress</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider236">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/instructions_and_data/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PC/clk" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="label">clk_GENERAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[13:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[13:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_readdata2" type="array">
+      <obj_property name="ElementShortName">EX_MEM_readdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_readdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_MemRead" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_MemRead</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_MemWrite" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_MemWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_funct" type="array">
+      <obj_property name="ElementShortName">EX_MEM_funct[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_funct[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/instructions_and_data/out" type="array">
+      <obj_property name="ElementShortName">out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/instructions_and_data/mem" type="array">
+      <obj_property name="ElementShortName">mem[0:255][7:0]</obj_property>
+      <obj_property name="ObjectShortName">mem[0:255][7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider237">
+      <obj_property name="label">RegFile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/file/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PC/clk" type="logic">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="label">clk_GENERAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/file/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/IF_ID_readreg1" type="array">
+      <obj_property name="ElementShortName">IF_ID_readreg1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_readreg1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/IF_ID_readreg2" type="array">
+      <obj_property name="ElementShortName">IF_ID_readreg2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_readreg2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MEM_WB_rd" type="array">
+      <obj_property name="ElementShortName">MEM_WB_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/file/writedata" type="array">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MEM_WB_RegWrite" type="logic">
+      <obj_property name="ElementShortName">MEM_WB_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/file/readdata1" type="array">
+      <obj_property name="ElementShortName">readdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/file/readdata2" type="array">
+      <obj_property name="ElementShortName">readdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/file/regs_out" type="array">
+      <obj_property name="ElementShortName">regs_out[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regs_out[0:31][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider250">
+      <obj_property name="label">PC+4 Adder</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/target_address" type="array">
+      <obj_property name="ElementShortName">target_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">target_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PC_addressAdder/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/pc_step" type="array">
+      <obj_property name="ElementShortName">pc_step[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_step[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider256">
+      <obj_property name="label">Flushing_Fisrt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/mem_out" type="array">
+      <obj_property name="ElementShortName">mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/flushing_fisrt/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/flushSignal" type="logic">
+      <obj_property name="ElementShortName">flushSignal</obj_property>
+      <obj_property name="ObjectShortName">flushSignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider262">
+      <obj_property name="label">CTRL UNIT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/control/inst" type="array">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">inst[6:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[6:0]</obj_property>
+      <obj_property name="label">IF_ID_inst[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/control/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/control/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/control/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/control/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/control/ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/control/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/control/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/control/WhatToWrite" type="array">
+      <obj_property name="ElementShortName">WhatToWrite[1:0]</obj_property>
+      <obj_property name="ObjectShortName">WhatToWrite[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider272">
+      <obj_property name="label">ImmGen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/IF_ID_instruction" type="array">
+      <obj_property name="ElementShortName">IF_ID_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_ID_instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/gen/Imm" type="array">
+      <obj_property name="ElementShortName">Imm[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Imm[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider273">
+      <obj_property name="label">Flushing_Second</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/flushing_second/a" type="array">
+      <obj_property name="ElementShortName">a[7:0]</obj_property>
+      <obj_property name="ObjectShortName">a[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/flushing_second/b" type="array">
+      <obj_property name="ElementShortName">b[7:0]</obj_property>
+      <obj_property name="ObjectShortName">b[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/flushSignal" type="logic">
+      <obj_property name="ElementShortName">flushSignal</obj_property>
+      <obj_property name="ObjectShortName">flushSignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ID_EX_flushCtrls" type="array">
+      <obj_property name="ElementShortName">ID_EX_flushCtrls[7:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_flushCtrls[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider274">
+      <obj_property name="label">ALU_ctrlUnit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ID_EX_ALUOp" type="array">
+      <obj_property name="ElementShortName">ID_EX_ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU_Ctrl/inst" type="array">
+      <obj_property name="ElementShortName">inst[14:12]</obj_property>
+      <obj_property name="ObjectShortName">inst[14:12]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU_Ctrl/inst_30" type="logic">
+      <obj_property name="ElementShortName">inst_30</obj_property>
+      <obj_property name="ObjectShortName">inst_30</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU_Ctrl/inst_25" type="logic">
+      <obj_property name="ElementShortName">inst_25</obj_property>
+      <obj_property name="ObjectShortName">inst_25</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU_Ctrl/ALUsel" type="array">
+      <obj_property name="ElementShortName">ALUsel[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUsel[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider275">
+      <obj_property name="label">jump_address</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ID_EX_target_address" type="array">
+      <obj_property name="ElementShortName">ID_EX_target_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_target_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ID_EX_gen_out" type="array">
+      <obj_property name="ElementShortName">ID_EX_gen_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_gen_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/pc_jump" type="array">
+      <obj_property name="ElementShortName">pc_jump[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_jump[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider276">
+      <obj_property name="label">ForwardingUnit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forwarding/ID_EX_rs1" type="array">
+      <obj_property name="ElementShortName">ID_EX_rs1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_rs1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forwarding/ID_EX_rs2" type="array">
+      <obj_property name="ElementShortName">ID_EX_rs2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_rs2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forwarding/EX_MEM_rd" type="array">
+      <obj_property name="ElementShortName">EX_MEM_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forwarding/MEM_WB_rd" type="array">
+      <obj_property name="ElementShortName">MEM_WB_rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forwarding/EX_MEM_RegWrite" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forwarding/MEM_WB_RegWrite" type="logic">
+      <obj_property name="ElementShortName">MEM_WB_RegWrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forwarding/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forwarding/ForwardB" type="array">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider277">
+      <obj_property name="label">forward_a</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ID_EX_readdata1" type="array">
+      <obj_property name="ElementShortName">ID_EX_readdata1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_readdata1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/writedata" type="array">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_ALU_result" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forward_a/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ForwardA" type="array">
+      <obj_property name="ElementShortName">ForwardA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ForwardA_out" type="array">
+      <obj_property name="ElementShortName">ForwardA_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider278">
+      <obj_property name="label">forward_b</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ID_EX_readdata2" type="array">
+      <obj_property name="ElementShortName">ID_EX_readdata2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_readdata2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/writedata" type="array">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_ALU_result" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/forward_b/d" type="array">
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ForwardB" type="array">
+      <obj_property name="ElementShortName">ForwardB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ForwardB_out" type="array">
+      <obj_property name="ElementShortName">ForwardB_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider279">
+      <obj_property name="label">MUX_ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ForwardB_out" type="array">
+      <obj_property name="ElementShortName">ForwardB_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardB_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ID_EX_gen_out" type="array">
+      <obj_property name="ElementShortName">ID_EX_gen_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_gen_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ID_EX_ALUSrc" type="logic">
+      <obj_property name="ElementShortName">ID_EX_ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_ALUSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU_in2" type="array">
+      <obj_property name="ElementShortName">ALU_in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider280">
+      <obj_property name="label">ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ForwardA_out" type="array">
+      <obj_property name="ElementShortName">ForwardA_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardA_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU_in2" type="array">
+      <obj_property name="ElementShortName">ALU_in2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_in2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALUsel" type="array">
+      <obj_property name="ElementShortName">ALUsel[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUsel[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ID_EX_shamt" type="array">
+      <obj_property name="ElementShortName">ID_EX_shamt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX_shamt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU_result" type="array">
+      <obj_property name="ElementShortName">ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU/cf" type="logic">
+      <obj_property name="ElementShortName">cf</obj_property>
+      <obj_property name="ObjectShortName">cf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU/zf" type="logic">
+      <obj_property name="ElementShortName">zf</obj_property>
+      <obj_property name="ObjectShortName">zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU/vf" type="logic">
+      <obj_property name="ElementShortName">vf</obj_property>
+      <obj_property name="ObjectShortName">vf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/ALU/sf" type="logic">
+      <obj_property name="ElementShortName">sf</obj_property>
+      <obj_property name="ObjectShortName">sf</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider281">
+      <obj_property name="label">Flushing_Third</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/flushing_third/a" type="array">
+      <obj_property name="ElementShortName">a[4:0]</obj_property>
+      <obj_property name="ObjectShortName">a[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/flushing_third/b" type="array">
+      <obj_property name="ElementShortName">b[4:0]</obj_property>
+      <obj_property name="ObjectShortName">b[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/flushSignal" type="logic">
+      <obj_property name="ElementShortName">flushSignal</obj_property>
+      <obj_property name="ObjectShortName">flushSignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_flushCtrls" type="array">
+      <obj_property name="ElementShortName">EX_MEM_flushCtrls[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_flushCtrls[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider282">
+      <obj_property name="label">BranchUnit</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_cf" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_cf</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_cf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_zf" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_zf</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_zf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_vf" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_vf</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_vf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_sf" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_sf</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_sf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_branch" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_branch</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/branchCtrl/fun3" type="array">
+      <obj_property name="ElementShortName">fun3[14:12]</obj_property>
+      <obj_property name="ObjectShortName">fun3[14:12]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_inst2" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_inst2</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_inst2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_inst3" type="logic">
+      <obj_property name="ElementShortName">EX_MEM_inst3</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_inst3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_halt" type="array">
+      <obj_property name="ElementShortName">EX_MEM_halt[2:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_halt[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PCsel" type="array">
+      <obj_property name="ElementShortName">PCsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider283">
+      <obj_property name="label">MUX_PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_target_address" type="array">
+      <obj_property name="ElementShortName">EX_MEM_target_address[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_target_address[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_ALU_result" type="array">
+      <obj_property name="ElementShortName">EX_MEM_ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_pc_step" type="array">
+      <obj_property name="ElementShortName">EX_MEM_pc_step[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_pc_step[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/EX_MEM_pc_jump" type="array">
+      <obj_property name="ElementShortName">EX_MEM_pc_jump[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM_pc_jump[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/PCsel" type="array">
+      <obj_property name="ElementShortName">PCsel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PCsel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/address_in" type="array">
+      <obj_property name="ElementShortName">address_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">address_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider284">
+      <obj_property name="label">MUX_mem_ALU</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MEM_WB_ALU_result" type="array">
+      <obj_property name="ElementShortName">MEM_WB_ALU_result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_ALU_result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MEM_WB_mem_out" type="array">
+      <obj_property name="ElementShortName">MEM_WB_mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MEM_WB_MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MEM_WB_MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MemVSALU" type="array">
+      <obj_property name="ElementShortName">MemVSALU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemVSALU[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider285">
+      <obj_property name="label">MUX_Writedata</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MemVSALU" type="array">
+      <obj_property name="ElementShortName">MemVSALU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemVSALU[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MEM_WB_pc_step" type="array">
+      <obj_property name="ElementShortName">MEM_WB_pc_step[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_pc_step[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MEM_WB_pc_jump" type="array">
+      <obj_property name="ElementShortName">MEM_WB_pc_jump[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_pc_jump[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MEM_WB_gen_out" type="array">
+      <obj_property name="ElementShortName">MEM_WB_gen_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_gen_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/MEM_WB_WhatToWrite" type="array">
+      <obj_property name="ElementShortName">MEM_WB_WhatToWrite[1:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB_WhatToWrite[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_Pipelined_tb/uut/writedata" type="array">
+      <obj_property name="ElementShortName">writedata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writedata[31:0]</obj_property>
+   </wvobject>
+</wave_config>
